@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Properities -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+	<!-- DocPad Meta -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- DocPad Styles + Our Own -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+<body>
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<header>
+		<ul class="mobile_menu">
+			<li><a href="#" class="close">X Close</a></li>
+			<li><h4>Services</h4>
+				<div class="menu_content">
+					<a href="#" class="btn i_1">Interational calling</a>
+					<a href="#" class="btn i_2">callphone recharges</a>
+					<a href="#" class="btn i_3">money transfer</a>
+				</div>
+			</li>
+			<li><h4>Support</h4>
+				<div class="menu_content">
+					Sub menu content
+				</div>
+			</li>
+			<li><h4>Community</h4>
+				<div class="menu_content">
+					Sub menu content
+				</div>
+			</li>
+			<li>
+				<img style="margin: auto; display: block;" src="https://dl.dropboxusercontent.com/u/10558174/_del/todo4.fw.png" />
+			</li>					
+		</ul>
+		<div class="grid_wrapper">
+			<h1 class="logo"><a href="<%= @getUrl('/') %>"><%- @site.title %></a></h1>		
+			<nav>
+				<ul class="menu">
+					<li><a href="#" class="active">Services</a>
+						<ul>
+							<li><a href="#">International calling</a></li>
+							<li><a href="#">International calling</a></li>
+							<li><a href="#">International calling</a></li>
+							<li><span class="menu_separator">AdditionalServices</span></li>
+							<li><a href="#">Money Transfer</a></li>
+							<li><a href="#">Pre paid Visa Card</a></li>
+							<li><a href="#">Domestic Bill Payments</a></li>
+							<li><a href="#">Domestic Bill Payments</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Rates</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">My account</a></li>	
+				</ul>				
+			</nav>			
+		</div>
+		<div class="cappy">
+			<div class="grid_wrapper">	
+				<div class="home_promo">$1 Free Trial for New International Calling Customers</div>	
+				<a href="#" class="pos_1"><img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo1.png" />&nbsp;&nbsp;&nbsp; Sign in</a>
+				<a href="#" class="pos_2">Register</a>
+			</div>
+		</div>
+		<div class="homepage_promo">
+			<div class="homepage_promo_inner">
+				<img class="homepage_image" src="<%= @getUrl('/img/demo1_920.jpg') %>" alt="" data-wide="<%= @getUrl('/img/demo1.jpg') %>" />
+				<div class="home_headline">			
+					<div class="headline_promo_wrapper">
+						<!--div class="headline_promo">TEST</div-->
+						<h1>Staying Connected Has Never Been Easier</h1>	
+					</div>					
+				</div>
+			</div>
+		</div>		
+	</header>
+	<div class="service_form">	
+		<div class="grid_wrapper">		
+			<!--Select Service
+			Enter Destination-->
+			<img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo2.png" />
+			<div class="btn i_default">Go</div>
+		</div>
+	</div>
+	<div class="content grid_wrapper">		
+		<div class="line l_1">
+			<a href="#" class="btn i_1">Interational calling</a>
+			<a href="#" class="btn i_2">callphone recharges</a>
+			<a href="#" class="btn i_3">money transfer</a>		
+		</div>
+		<article>
+			<%- @content %>
+		</article>		
+		<div class="line l_2">
+			<div class="block_b">
+				<img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo3.png" alt="" />
+			</div>
+			<div class="block_b">
+				<img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo3.png" alt="" />
+			</div>
+			<div class="block_b">
+				<img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo3.png" alt="" />
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="mobile_app grid_wrapper">
+			Download our app and get $1 free
+			<a target="_blank" href="#">
+				<img class="aligncenter wp-image-1573" width="196" height="59" src="http://www.olympusamericaprodictation.com/wp-content/uploads/2013/10/app_store_badge_download_vector_01.png" alt="Olympus Dictation App – Download on the App Store">
+			</a>
+			<a target="_blank" href="#">
+				<img class="aligncenter wp-image-1574" width="193" height="59" src="http://www.olympusamericaprodictation.com/wp-content/uploads/2013/10/google-play.png" alt="Olympus Dictation App on Google Play">
+			</a>
+		</div>
+
+		<nav>
+			<ul class="bottom_menu grid_wrapper">
+				<li class="block_1">
+					<div class="line_1">
+						Send email to
+						<a href="mailto:support@bossrevolution.com?subject=Support">support@bossrevolution.com</a>
+					</div>
+					<div class="line_2">
+						Call Customer Assistance
+						<a href="tel:18008710135">1-800-871-0135</a>
+						24 hours a day, 7Days a Week
+					</div>
+				</li>
+				<li class="block_2">
+					<h4>Products</h4>
+					<ul>
+						<li><a href="#">Internationsl Calling</a></li>
+						<li><a href="#">Mobile Recharges</a></li>
+						<li><a href="#">Money Transfer</a></li>
+						<li><a href="#">Prepai Visa</a></li>
+						<li><a href="#">CLG</a></li>
+					</ul>
+				</li>
+				<li class="block_3">
+					<h4>About</h4>
+					<ul>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">About Boss Revolution</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Community</a></li>
+					</ul>
+				</li>
+				<li class="block_4">
+					<h4>Social</h4>
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Pinterest</a></li>
+						<li><a href="#">Youtube</a></li>
+					</ul>
+				</li>				
+			</ul>
+		</nav>
+		<div class="copy">
+			<h4>Legal information</h4>
+			<div class="grid_wrapper">
+				&copy;BOSS Revolution 2014
+				<div class="terms">
+					<a href="#">Terms and conditions</a>
+					<a href="#">Privacy Policy</a>
+				</div>
+				<p>
+					Legal Styff lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- DocPad Scripts + Our Own -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+</body>
+</html>

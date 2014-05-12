@@ -1,0 +1,360 @@
+/* Your styles go here */
+@import "variables.css.less";
+@import "mixins.css.less";
+@import "typo.css.less";
+@import "structure.css.less";
+
+/*module*/
+html body {
+	background: #B3D4FC url("/img/blur.jpg") fixed;
+	background-size: 100% 100%;     
+	left: 0;
+}
+body {
+	&.show_menu { 
+		position: relative;
+		left: -275px;
+		transition: all 0.3s ease-out;
+		.mobile_menu {
+			display: block;
+		}	
+	}
+}
+
+.cappy {
+	background: url(@transparent_black) repeat;
+	@media screen and (max-width: 920px) {
+		background: #B31212;		
+		.pos_1{			
+			right: 70px;
+			width: 48px;
+			height: 48px;
+			background: #CC0000 url(@sprite) -116px -67px no-repeat;
+			.border_radius(5px);
+			text-indent: -9999px;
+		}		
+	}
+}
+
+.menu li {
+	float: left;
+	a {
+		padding: 15px 25px;
+		background: url(@transparent_red) repeat;
+		&.active {
+			background: #9d0000;
+		}
+	}
+	ul {
+		display: none;
+	}
+	&:first-child a{
+		.border_radius(5px 0 0 5px);
+	}
+	&:last-child a{
+		.border_radius(0 5px 5px 0);
+	}	
+}
+
+footer{
+	background: #a70c0c;
+	nav {
+		border-top: solid 1px #fff;
+		@media screen and (max-width: 920px) {
+			.block_1, .block_2, .block_3, .block_4 {
+				width: auto;
+				float: none;			
+			}
+			.block_1 {
+				padding: 25px;
+			}
+			.block_2, .block_3, .block_4 {
+				background: #222;
+				h4 {				
+					margin: 0;
+					padding: 15px 25px;
+					border-top: solid 2px #999;
+					cursor: pointer;
+					position: relative;
+					.plus;
+				}
+				ul {
+					display: none;
+				}
+				&.active {
+					h4 {
+						.minus;
+					}
+					ul{
+						display: block;
+						background: #ececfb;
+						li {
+							padding: 0 8px;
+							a {
+								font-weight: bold;
+								display: block;
+								padding: 8px;
+								color: #006bbd;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.copy {
+		background: #000;
+		border-top: solid 1px #fff;
+		h4 {
+			display: none;
+			position: relative;
+			cursor: pointer;
+			.plus;			
+		}
+		&.active {			
+			h4 {
+				.minus;
+			}
+			.grid_wrapper {
+				display: block;
+			}
+		}
+		@media screen and (max-width: 600px) {
+			padding: 0;
+			.grid_wrapper {
+				display: none;
+			}
+		 	h4 {
+				display: block !important;
+				background: #222;
+				padding: 15px 25px;
+				margin: 0;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.service_form {
+	background: #fff;
+	text-align: center;
+	@media screen and (max-width: 960px) {
+		display: none;
+	}
+}
+
+header {
+	background: #333;
+	.mobile_menu {				
+		position: absolute;
+		top: 0;
+		right: -275px;	
+		padding: 0;
+		margin: 0;
+		background: #fff;
+		box-shadow: inset 10px 0 20px -9px rgba(0,0,0,.3);
+		z-index: 20;
+		width: 275px;
+		display: none;
+		list-style: none;
+		margin: 0;		
+		li {					
+			border-bottom: solid 1px #f3f3f3;
+			text-transform: uppercase;
+			position: relative;					
+			h4 {
+				display: block;						
+				padding: 15px 28px 15px 48px;
+				margin: 0;
+				cursor: pointer;
+				.plus;
+			}
+			.close {
+				color: #cc0000;
+				font-weight: bold;
+				display: block;
+				font-size: 12px;
+				padding: 15px 28px;
+				&:hover {
+					text-decoration: none;	
+				}						
+			}
+			&.active {
+				.menu_content {
+					display: block;
+					background: #ebebeb;
+					box-shadow: inset 15px 0 10px -10px rgba(0,0,0,0.3);
+					padding: 15px 28px;
+					a {
+						display: block;
+						margin-bottom: 3px;
+						text-transform: none;
+					}
+				}
+				h4 {
+					.minus;
+				}					
+			}
+		}
+		.menu_content {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 920px) {
+		nav {			
+			content: "";
+			cursor: pointer;
+			width: 48px;
+			height: 48px;
+			background: #CC0000 url(@sprite) -172px -65px no-repeat;
+			.border_radius(5px);
+		}
+	}
+}
+
+.visible{	
+	 transition: opacity 0.7s ease-in;
+	 transition-delay:0.5s;
+	 opacity: 1;
+}
+
+.home_headline {
+	.headline_promo {
+		background: url(@transparent_black) repeat;
+	}	
+}
+
+.homepage_promo{	
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	.homepage_promo_inner {
+		min-height: 611px;
+		background: url(@linear_black) 0 100% repeat-x;		
+	}
+	.homepage_image {
+		display: none;
+		width: 100%;
+	}
+	@media screen and (max-width: 960px) {
+		&.homepage_promo {
+			background: none !important;
+			.homepage_promo_inner {
+				min-height: 0;
+			}
+		}
+		.homepage_image {
+			display: block;
+		}
+		.home_headline{
+			background: url(@linear_black) repeat;			
+		}
+	}	
+
+}
+
+article {
+	background: #fff;
+	.border_radius(5px);
+}
+
+.content_block_1 {
+	text-align: center;
+	margin: 0 30px;
+	padding-top: 15px;
+	p {
+		font-size: 18px;
+		margin-bottom: 65px;
+	}
+} 
+
+.block_a {
+	display: inline-block;
+	width: 200px;
+	padding: 25px;
+	background: #ebf0f5;
+	.border_radius(4px);
+	position: relative;
+	text-align: left;
+	margin: 0 16px;
+	h3 {
+		color: #000;
+	}
+	p {
+		color: #484848;
+		font-size: 16px;
+		margin: 10px 0;
+	}
+	a {
+		font-weight: bold;
+	}
+	&:after {
+		content:'';
+		background: url(@sprite) -111px 0 no-repeat;
+		width: 56px;
+		height: 56px;		
+		position: absolute;
+		left: 97px;
+		top: -23px;		
+	}	
+}
+
+.block_b {
+	display: inline-block;
+	width: 268px;
+	padding: 11px;
+	.border_radius(4px);
+	background: #fff;
+}
+footer {
+	border-top: solid 2px #fff;
+}
+.bottom_menu, footer nav {
+	background: url(@linear_red) 0 0 repeat-x;
+	min-height: 214px;
+	@media screen and (max-width: 920px) {
+		background: none;
+	}
+	.block_1 {
+		color:#fff;
+		font-weight: bold;
+		.line_1 {
+			font-size: 16px;
+			a {
+				font-size: 16px;
+				color: #fff;
+				display: block;
+			}
+		}
+		.line_2 {
+			a {
+				color: #fff;
+				font-size: 32px;
+				display: block;
+			}
+		}
+	}
+	.block_2, .block_3, .block_4 {
+		ul {
+			padding: 0;
+			margin: 0;
+			li {
+				padding: 2px 0 3px;
+			}
+		}
+	}
+}
+
+.l_1 {
+	.btn {
+		-moz-content-box: border-box;
+		content-box: border-box;
+		min-width: 214px;
+		margin-left: 20px;	
+		&:first-child{
+			margin-left: 0px;
+		}
+
+	}
+}
+

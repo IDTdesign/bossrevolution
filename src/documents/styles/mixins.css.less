@@ -1,0 +1,39 @@
+/*mixins*/
+
+/* Micro ClearFix Mixin */
+.clearfix{
+	zoom:1;
+	&:before, &:after{ content:""; display:table; }
+	&:after{ clear: both; }
+}
+
+/*border-radius*/
+.border_radius (@radius: 5px) {  
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.plus {
+	&:after {
+		content:'+';
+		width: 34px;
+		height: 34px;
+		position: absolute;
+		background: #cc0000;
+		color: #fff;
+		font-weight: bold;
+		right: 10px;
+		top: 10px;
+		text-align: center;
+		font-size: 31px;
+		line-height: 27px;
+		.border_radius(4px);
+	}
+}
+
+.minus {
+	&:after{
+		content:'\2013' !important;
+	}
+}
