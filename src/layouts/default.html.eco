@@ -14,7 +14,8 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- DocPad Styles + Our Own -->
-	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+	<%- @getBlock('styles').add(@getUrl(@site.styles)).toHTML() %>
+	<script src="<%- @getUrl('/vendor/modernizr.js') %>"></script>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
@@ -187,7 +188,11 @@
 		</div>
 	</footer>
 
+	<!-- jQuery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="<%- @getUrl('/vendor/jquery.js') %>"><\\/script>')</script>
+
 	<!-- DocPad Scripts + Our Own -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<%- @getBlock('scripts').add(@getUrl(@site.scripts)).toHTML() %>
 </body>
 </html>

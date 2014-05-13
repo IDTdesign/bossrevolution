@@ -13,12 +13,10 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "http://bossrev.paulradzkov.com"
+			url: "http://idtdesign.github.io/bossrevolution"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
 			]
 
 			# The default title of our website
@@ -43,14 +41,7 @@ docpadConfig = {
 
 			# The website's scripts
 			scripts: [
-				"""
-				<!-- jQuery -->
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-				<script>window.jQuery || document.write('<script src="/vendor/jquery.js"><\\/script>')</script>
-				"""
-
 				'/vendor/log.js'
-				'/vendor/modernizr.js'
 				'/scripts/alfablur.js'
 				'/scripts/StackBlur.js'
 				'/scripts/script.js'
@@ -81,6 +72,10 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+	plugins:
+	    ghpages:
+	        deployRemote: 'deploy'
+	        deployBranch: 'gh-pages'
 
 	# =================================
 	# Collections
