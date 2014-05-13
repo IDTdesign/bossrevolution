@@ -52,7 +52,7 @@ Open command promt and run `git remote add deploy https://USERNAME:PASSWORD@gith
 
 ### Deploying Site
 
-Run `docpad deploy-ghpages --env static` inside your project directory to compile the site and push it to [http://idtdesign.github.io/DMA/](http://idtdesign.github.io/DMA/).
+Run `docpad deploy-ghpages --env static` inside your project directory to compile the site and push it to [http://idtdesign.github.io/bossrevolution/](http://idtdesign.github.io/bossrevolution/).
 
 You should be collaborator in this repository to be able to deploy.
 
