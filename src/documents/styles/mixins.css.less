@@ -37,3 +37,15 @@
 		content:'\2013' !important;
 	}
 }
+
+.arrow_down(@color: #ccc, @width: 6px, @height: 6px) {
+	border-style: solid;
+	border-width: @height @width/2 0 @width/2;
+	border-color: @color transparent transparent transparent;
+}
+
+.arrow_top(@color: #ccc, @width: 6px, @height: 6px) {
+	border-style: solid;
+	border-width: 0 @width/2 @height @width/2;
+	border-color: transparent transparent @color transparent;
+}

@@ -25,25 +25,34 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	min-height: 17px;	
+	min-height: 47px;
 	.home_promo {
-		padding-left: 138px;
+		padding:15px 0 0 138px;
 
+	}
+	.pos_0 {
+		position: absolute;
+		top: 5px;
+		right: 155px;
+		margin: 0;
 	}
 	.pos_1 {
 		position: absolute;
-		top: 0;
+		top: 15px;
 		right: 88px;
 	}
 	.pos_2 {
 		position: absolute;
-		top: 0;
+		top: 15px;
 		right: 0px;
 	}
 	@media screen and (max-width: 920px) {		
 		min-height: 51px;
 		padding: 7px 0;
 
+		.pos_1 {
+			top: 0;
+		}
 		.pos_2 {
 			display: none;			
 		}

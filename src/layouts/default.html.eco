@@ -54,18 +54,43 @@
 				<ul class="menu">
 					<li><a href="#" class="active">Services</a>
 						<ul>
+							<li><a href="#">Services</a></li>
 							<li><a href="#">International calling</a></li>
-							<li><a href="#">International calling</a></li>
-							<li><a href="#">International calling</a></li>
+							<li><a href="#">Rates</a></li>
 							<li><span class="menu_separator">AdditionalServices</span></li>
-							<li><a href="#">Money Transfer</a></li>
-							<li><a href="#">Pre paid Visa Card</a></li>
-							<li><a href="#">Domestic Bill Payments</a></li>
-							<li><a href="#">Domestic Bill Payments</a></li>
+							<li><a href="#">Rates</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">My account</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Rates</a></li>
-					<li><a href="#">Support</a></li>
+					<li><a href="#">Rates</a>
+						<ul>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">International calling</a></li>
+							<li><a href="#">Rates</a></li>							
+							<li><a href="#">Rates</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">My account</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Support</a>
+						<ul>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">International calling</a></li>
+							<li><a href="#">Rates</a></li>
+							<li><span class="menu_separator">AdditionalServices</span></li>
+							<li><a href="#">Rates</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">My account</a></li>
+							<li><a href="#">Rates</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">My account</a></li>
+						</ul>
+					</li>
 					<li><a href="#">Community</a></li>
 					<li><a href="#">My account</a></li>	
 				</ul>				
@@ -74,7 +99,27 @@
 		<div class="cappy">
 			<div class="grid_wrapper">	
 				<div class="home_promo">$1 Free Trial for New International Calling Customers</div>	
-				<a href="#" class="pos_1"><img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo1.png" />&nbsp;&nbsp;&nbsp; Sign in</a>
+				<ul class="pos_0">
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink">English <i class="fa fa-chevron-down i-xs"></i></a>
+						<ul class="dropdown-menu animated half flipInX">
+							<li><a href="#fakelink">English</a></li>
+							<li><a href="#fakelink">Español</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink"><img alt="Unated States" class="flag flag-us" src="<%= @getUrl('/img/blank.gif') %>"> USA <i class="fa fa-chevron-down i-xs"></i></a>
+						<ul class="dropdown-menu animated half flipInX">
+							<li><a href="#fakelink"><img alt="Canada" class="flag flag-ca" src="<%= @getUrl('/img/blank.gif') %>"> Canada</a></li>
+							<li><a href="#fakelink"><img alt="Great Britain" class="flag flag-gb" src="<%= @getUrl('/img/blank.gif') %>"> Great Britain</a></li>
+							<li><a href="#fakelink"><img alt="Spain" class="flag flag-es" src="<%= @getUrl('/img/blank.gif') %>"> Spain</a></li>
+							<li><a href="#fakelink"><img alt="Hong Kong" class="flag flag-hk" src="<%= @getUrl('/img/blank.gif') %>"> Hong Kong</a></li>
+							<li><a href="#fakelink"><img alt="Singapore" class="flag flag-sg" src="<%= @getUrl('/img/blank.gif') %>"> Singapore</a></li>
+							<li><a href="#fakelink"><img alt="Australia" class="flag flag-au" src="<%= @getUrl('/img/blank.gif') %>"> Australia</a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="#" class="pos_1">Sign in</a>
 				<a href="#" class="pos_2">Register</a>
 			</div>
 		</div>
@@ -94,8 +139,21 @@
 		<div class="grid_wrapper">		
 			<!--Select Service
 			Enter Destination-->
-			<img src="https://dl.dropboxusercontent.com/u/10558174/_del/todo2.png" />
-			<div class="btn i_default">Go</div>
+			<ul>
+				<li>
+					<div class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink">Select a Service <i class="fa fa-chevron-down i-xs"></i></a>
+						<ul class="dropdown-menu animated half flipInX">
+							<li><a href="#fakelink">Select 1</a></li>
+							<li><a href="#fakelink">Select 2</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="input">
+					<input placeholder="Enter Destination..." />
+				</li>
+				<li><div class="btn i_default">Go</div></li>
+			</ul>
 		</div>
 	</div>
 	<div class="content grid_wrapper">		
@@ -165,10 +223,10 @@
 				<li class="block_4">
 					<h4>Social</h4>
 					<ul>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Pinterest</a></li>
-						<li><a href="#">Youtube</a></li>
+						<li><a href="#" class="fb">Facebook</a></li>
+						<li><a href="#" class="yt">Youtube</a></li>
+						<li><a href="#" class="tw">Twitter</a></li>
+						<li><a href="#" class="pnt">Pinterest</a></li>						
 					</ul>
 				</li>				
 			</ul>

@@ -5,10 +5,23 @@
 		$(this).parent().toggleClass('active');
 	})
 	$('header nav, .mobile_menu .close').click(function(){
-		$('body').toggleClass('show_menu');
+		if ($(window).width() < 920) {
+			$('body').toggleClass('show_menu');
 
+			return false;
+		}
+	});
+	$('.dropdown').click(function(){
+		$(this).toggleClass('open');
 		return false;
 	});
+	$('.dropdown').hover(
+		function(){},
+		function(){
+			$(this).removeClass('open');	
+		}
+	);
+
 	/*if ($(window).width() > 1024) {*/
 		var promo = $('.homepage_promo');
 		promo.css('background-image','url('+promo.find('.homepage_image').attr('data-wide')+')');
