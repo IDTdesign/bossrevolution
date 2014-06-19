@@ -234,11 +234,11 @@
 		<div class="copy">
 			<h4>Legal information</h4>
 			<div class="grid_wrapper">
-				&copy;BOSS Revolution 2014
 				<div class="terms">
 					<a href="#">Terms and conditions</a>
 					<a href="#">Privacy Policy</a>
 				</div>
+				&copy; BOSS Revolution 2014				
 				<p>
 					Legal Styff lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</p>
