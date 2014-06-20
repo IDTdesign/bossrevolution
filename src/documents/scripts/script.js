@@ -11,7 +11,7 @@
 			return false;
 		}
 	});
-	$('.dropdown').click(function(){
+	/*$('.dropdown').click(function(){
 		$(this).toggleClass('open');
 		return false;
 	});
@@ -20,7 +20,7 @@
 		function(){
 			$(this).removeClass('open');	
 		}
-	);
+	);*/
 
 	/*if ($(window).width() > 1024) {*/
 		var promo = $('.homepage_promo');

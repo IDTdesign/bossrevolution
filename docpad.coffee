@@ -34,14 +34,14 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/vendor/normalize.css'
-				'/vendor/h5bp.css'
-				'/styles/style.css'
+				'/bootstrap/dist/css/bootstrap-custom.css'
+				'/styles/bossrevolution.css'
 			]
 
 			# The website's scripts
 			scripts: [
 				'/vendor/log.js'
+				'/bootstrap/dist/js/bootstrap.min.js'
 				'/scripts/alfablur.js'
 				'/scripts/StackBlur.js'
 				'/scripts/script.js'
