@@ -29,12 +29,13 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				keywords
 				"""
 
 			# The website's styles
 			styles: [
 				'/bootstrap/dist/css/bootstrap-custom.css'
+				'/bootstrap/dist/css/bootstrap-theme.css'
 				'/styles/bossrevolution.css'
 			]
 
@@ -73,9 +74,14 @@ docpadConfig = {
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
 	plugins:
-	    ghpages:
-	        deployRemote: 'deploy'
-	        deployBranch: 'gh-pages'
+		ghpages:
+			deployRemote: 'deploy'
+			deployBranch: 'gh-pages'
+		marked:
+			gfm: true
+		highlightjs:
+			aliases:
+				missinglanguage: 'alternativelanguage'
 
 	# =================================
 	# Collections
@@ -93,6 +99,11 @@ docpadConfig = {
 		# That contains all the documents that will be going to the out path posts
 		posts: ->
 			@getCollection('documents').findAllLive({relativeOutDirPath: 'posts'})
+
+		bootstrapdocs: ->
+			@getCollection('documents').findAllLive({url: $startsWith: '/bootstrap/docs2'}).on "add", (model) ->
+				model.setMetaDefaults({layout:"docs"})
+
 
 
 	# =================================
