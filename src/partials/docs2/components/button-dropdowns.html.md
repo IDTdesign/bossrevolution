@@ -5,7 +5,7 @@
 
 <div class="bs-callout bs-callout-danger">
   <h4>Plugin dependency</h4>
-  <p>Button dropdowns require the <a href="../javascript/#dropdowns">dropdown plugin</a> to be included in your version of Bootstrap.</p>
+  <p>Button dropdowns require the <a href="javascript.html#dropdowns">dropdown plugin</a> to be included in your version of Bootstrap.</p>
 </div>
 
 <h3 id="btn-dropdowns-single">Single button dropdowns</h3>

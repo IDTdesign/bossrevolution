@@ -9,7 +9,7 @@
   <p>Since Bootstrap doesn't know how much space the content in your navbar needs, you might run into issues with content wrapping into a second row. To resolve this, you can:</p>
   <ol type="a">
     <li>Reduce the amount or width of navbar items.</li>
-    <li>Hide certain navbar items at certain screen sizes using <a href="../css/#responsive-utilities">responsive utility classes</a>.</li>
+    <li>Hide certain navbar items at certain screen sizes using <a href="css.html#responsive-utilities">responsive utility classes</a>.</li>
     <li>Change the point at which your navbar switches between collapsed and horizontal mode. Customize the <code>@grid-float-breakpoint</code> variable or add your own media query.</li>
   </ol>
 </div>
@@ -134,7 +134,7 @@
 
 <div class="bs-callout bs-callout-danger">
   <h4>Plugin dependency</h4>
-  <p>The responsive navbar requires the <a href="../javascript/#collapse">collapse plugin</a> to be included in your version of Bootstrap.</p>
+  <p>The responsive navbar requires the <a href="javascript.html#collapse">collapse plugin</a> to be included in your version of Bootstrap.</p>
 </div>
 
 <div class="bs-callout bs-callout-warning">
@@ -184,7 +184,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Mobile device caveats</h4>
-  <p>There are some caveats regarding using form controls within fixed elements on mobile devices. <a href="../getting-started/#support-fixed-position-keyboards">See our browser support docs</a> for details.</p>
+  <p>There are some caveats regarding using form controls within fixed elements on mobile devices. <a href="getting-started.html#support-fixed-position-keyboards">See our browser support docs</a> for details.</p>
 </div>
 
 <div class="bs-callout bs-callout-warning">
@@ -222,7 +222,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Context-specific usage</h4>
-  <p>Like the standard <a href="../css/#buttons">button classes</a>, <code>.navbar-btn</code> can be used on <code>&lt;a&gt;</code> and <code>&lt;input&gt;</code> elements. However, neither <code>.navbar-btn</code> nor the standard button classes should be used on <code>&lt;a&gt;</code> elements within <code>.navbar-nav</code>.</p>
+  <p>Like the standard <a href="css.html#buttons">button classes</a>, <code>.navbar-btn</code> can be used on <code>&lt;a&gt;</code> and <code>&lt;input&gt;</code> elements. However, neither <code>.navbar-btn</code> nor the standard button classes should be used on <code>&lt;a&gt;</code> elements within <code>.navbar-nav</code>.</p>
 </div>
 
 <h2 id="navbar-text">Text</h2>

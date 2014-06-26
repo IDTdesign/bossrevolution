@@ -1,7 +1,7 @@
 
 <h1 id="dropdowns" class="page-header">Dropdowns</h1>
 
-<p class="lead">Toggleable, contextual menu for displaying lists of links. Made interactive with the <a href="../javascript/#dropdowns">dropdown JavaScript plugin</a>.</p>
+<p class="lead">Toggleable, contextual menu for displaying lists of links. Made interactive with the <a href="javascript.html#dropdowns">dropdown JavaScript plugin</a>.</p>
 
 <h3 id="dropdowns-example">Example</h3>
 

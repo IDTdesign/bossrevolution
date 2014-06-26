@@ -322,7 +322,7 @@
 	<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
 </div>
 ```
-<p>In addition to column clearing at responsive breakpoints, you may need to <strong>reset offsets, pushes, or pulls</strong>. See this in action in <a href="../examples/grid/">the grid example</a>.</p>
+<p>In addition to column clearing at responsive breakpoints, you may need to <strong>reset offsets, pushes, or pulls</strong>. See this in action in <a href="../docs/examples/grid/">the grid example</a>.</p>
 
 ```html
 <div class="row">

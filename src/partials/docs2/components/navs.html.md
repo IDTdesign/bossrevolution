@@ -24,7 +24,7 @@
 ```
 <div class="bs-callout bs-callout-info">
   <h4>Requires JavaScript tabs plugin</h4>
-  <p>For tabs with tabbable areas, you must use the <a href="../javascript/#tabs">tabs JavaScript plugin</a>.</p>
+  <p>For tabs with tabbable areas, you must use the <a href="javascript.html#tabs">tabs JavaScript plugin</a>.</p>
 </div>
 
 <h2 id="nav-pills">Pills</h2>
@@ -69,7 +69,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Safari and responsive justified navs</h4>
-  <p>As of v7.0.1, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing. This bug is also shown in the <a href="../examples/justified-nav/">justified nav example</a>.</p>
+  <p>As of v7.0.1, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing. This bug is also shown in the <a href="../docs/examples/justified-nav/">justified nav example</a>.</p>
 </div>
 
 <div class="bs-example">
@@ -124,7 +124,7 @@
 
 <h2 id="nav-dropdowns">Using dropdowns</h2>
 
-<p>Add dropdown menus with a little extra HTML and the <a href="../javascript/#dropdowns">dropdowns JavaScript plugin</a>.</p>
+<p>Add dropdown menus with a little extra HTML and the <a href="javascript.html#dropdowns">dropdowns JavaScript plugin</a>.</p>
 
 <h3>Tabs with dropdowns</h3>
 

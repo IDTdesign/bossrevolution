@@ -16,7 +16,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Mobile device caveats</h4>
-  <p>There are some caveats regarding using modals on mobile devices. <a href="../getting-started/#support-fixed-position-keyboards">See our browser support docs</a> for details.</p>
+  <p>There are some caveats regarding using modals on mobile devices. <a href="getting-started.html#support-fixed-position-keyboards">See our browser support docs</a> for details.</p>
 </div>
 
 <h3>Static example</h3>

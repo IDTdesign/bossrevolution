@@ -67,7 +67,7 @@
 
 <h3 id="helper-classes-carets">Carets</h3>
 
-<p>Use carets to indicate dropdown functionality and direction. Note that the default caret will reverse automatically in <a href="../components/#btn-dropdowns-dropup">dropup menus</a>.</p>
+<p>Use carets to indicate dropdown functionality and direction. Note that the default caret will reverse automatically in <a href="components.html#btn-dropdowns-dropup">dropup menus</a>.</p>
 
 <div class="bs-example">
   <span class="caret"></span>
@@ -107,7 +107,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Not for use in navbars</h4>
-  <p>To align components in navbars with utility classes, use <code>.navbar-left</code> or <code>.navbar-right</code> instead. <a href="../components/#navbar-component-alignment">See the navbar docs</a> for details.</p>
+  <p>To align components in navbars with utility classes, use <code>.navbar-left</code> or <code>.navbar-right</code> instead. <a href="components.html#navbar-component-alignment">See the navbar docs</a> for details.</p>
 </div>
 
 
@@ -200,7 +200,7 @@
 
 <h3 id="helper-classes-screen-readers">Screen reader and keyboard navigation content</h3>
 
-<p>Hide an element to all devices <strong>except screen readers</strong> with <code>.sr-only</code>. Combine <code>.sr-only</code> with <code>.sr-only-focusable</code> to show the element again when it's focused (e.g. by a keyboard-only user). Necessary for following <a href="../getting-started/#accessibility">accessibility best practices</a>. Can also be used as mixins.</p>
+<p>Hide an element to all devices <strong>except screen readers</strong> with <code>.sr-only</code>. Combine <code>.sr-only</code> with <code>.sr-only-focusable</code> to show the element again when it's focused (e.g. by a keyboard-only user). Necessary for following <a href="getting-started.html#accessibility">accessibility best practices</a>. Can also be used as mixins.</p>
 
 ```html
 <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>

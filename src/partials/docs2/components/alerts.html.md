@@ -1,7 +1,7 @@
 
 <h1 id="alerts" class="page-header">Alerts</h1>
 
-<p class="lead">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. For inline dismissal, use the <a href="../javascript/#alerts">alerts jQuery plugin</a>.</p>
+<p class="lead">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. For inline dismissal, use the <a href="javascript.html#alerts">alerts jQuery plugin</a>.</p>
 
 <h2 id="alerts-examples">Examples</h2>
 

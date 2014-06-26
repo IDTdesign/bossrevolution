@@ -1,7 +1,7 @@
 
 <h1 id="thumbnails" class="page-header">Thumbnails</h1>
 
-<p class="lead">Extend Bootstrap's <a href="../css/#grid">grid system</a> with the thumbnail component to easily display grids of images, videos, text, and more.</p>
+<p class="lead">Extend Bootstrap's <a href="css.html#grid">grid system</a> with the thumbnail component to easily display grids of images, videos, text, and more.</p>
 
 <h3 id="thumbnails-default">Default example</h3>
 

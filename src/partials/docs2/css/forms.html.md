@@ -54,7 +54,7 @@
 
 <div class="bs-callout bs-callout-warning">
   <h4>Don't mix form groups with input groups</h4>
-  <p>Do not mix form groups directly with <a href="/components/#input-groups">input groups</a>. Instead, nest the input group inside of the form group.</p>
+  <p>Do not mix form groups directly with <a href="components.html#input-groups">input groups</a>. Instead, nest the input group inside of the form group.</p>
 </div>
 
 
@@ -209,7 +209,7 @@
 
 <div class="bs-callout bs-callout-info">
   <h4>Input groups</h4>
-  <p>To add integrated text or buttons before and/or after any text-based <code>&lt;input&gt;</code>, <a href="../components/#input-groups">check out the input group component</a>.</p>
+  <p>To add integrated text or buttons before and/or after any text-based <code>&lt;input&gt;</code>, <a href="components.html#input-groups">check out the input group component</a>.</p>
 </div>
 
 <h3>Textarea</h3>

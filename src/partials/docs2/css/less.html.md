@@ -13,7 +13,7 @@
 
 <h2 id="less-variables">Variables</h2>
 
-<p>Variables are used throughout the entire project as a way to centralize and share commonly used values like colors, spacing, or font stacks. For a complete breakdown, please see <a href="../customize/#less-variables-section">the Customizer</a>.</p>
+<p>Variables are used throughout the entire project as a way to centralize and share commonly used values like colors, spacing, or font stacks. For a complete breakdown, please see <a href="https://github.com/IDTdesign/bossrevolution/blob/master/src/documents/bootstrap/dist/css/bts-var-bosscustomer.less">source code</a>.</p>
 
 <h3 id="less-variables-colors">Colors</h3>
 
