@@ -27,4 +27,6 @@
 		promo.css('background-image','url('+promo.find('.homepage_image').attr('data-wide')+')');
 	/*}*/
 
+	$(".dial").knob({'readOnly': true, 'fgColor':"#cc0000", 'bgColor':'#9eb7cf'});
+
 }(jQuery));

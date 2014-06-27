@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
+<% if @document.title: %>
 <h2><a href="<%= @document.url %>"><%- @document.title or @document.name %></a></h2>
+<% end %>
 <div>
 	<%- @content %>
 </div>

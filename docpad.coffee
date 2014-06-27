@@ -43,6 +43,7 @@ docpadConfig = {
 				'/vendor/log.js'
 				'/bootstrap/dist/js/bootstrap.min.js'
 				'/scripts/alfablur.js'
+				'/scripts/knob.js'
 				'/scripts/StackBlur.js'
 				'/scripts/script.js'
 			]
