@@ -1,7 +1,7 @@
 ---
 layout: 'default'
 ---
-<article>
+
 <ul>
 	<% for post in @getCollection('posts').sortArray(date: -1): %>
 	<li>
@@ -10,4 +10,3 @@ layout: 'default'
 	</li>
 	<% end %>
 </ul>
-</article>

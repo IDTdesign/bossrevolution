@@ -61,33 +61,39 @@ title: ''
 				<ul>
 					<li>
 						<div class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink">Select a Service <i class="fa fa-chevron-down i-xs"></i></a>
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink">United States of America <i class="fa fa-chevron-down i-xs"></i></a>
 							<ul class="dropdown-menu animated half flipInX">
 								<li><a href="#fakelink">Select 1</a></li>
 								<li><a href="#fakelink">Select 2</a></li>
 							</ul>
 						</div>
 					</li>
-					<li class="input">
-						<input placeholder="Enter Destination..." />
+					<li>
+						<div class="dropdown">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#fakelink">Mexico<i class="fa fa-chevron-down i-xs"></i></a>
+							<ul class="dropdown-menu animated half flipInX">
+								<li><a href="#fakelink">Select 1</a></li>
+								<li><a href="#fakelink">Select 2</a></li>
+							</ul>
+						</div>
 					</li>
 					<li><div class="btn i_default">Check Rates</div></li>
 				</ul>
 				<table>
 					<tr>
-						<th>Landlines</th>
-						<td>1.4c / min</td>
-						<td>70 minutes</td>
+						<th><span class="value">Landlines</span></th>
+						<td><span class="value">1.4c <small>/ min</small></span></td>
+						<td><span class="value fr"><small>70 minutes</small></span></td>
 					</tr>
 					<tr>
-						<th>Landlines</th>
-						<td>1.4c / min</td>
-						<td>70 minutes</td>
+						<th><span class="value">Mobile Phones</span></span></th>
+						<td><span class="value">1.4c <small>/ min</small></span></td>
+						<td><span class="value fr"><small>70 minutes</small></span></td>
 					</tr>
 					<tr>
-						<th>Landlines</th>
-						<td>1.4c / min</td>
-						<td>70 minutes</td>
+						<th><span class="value">MGM Cellular</span></th>
+						<td><span class="value">1.4c <small>/ min</small></span></td>
+						<td><span class="value fr"><small>70 minutes</small></span></td>
 					</tr>
 				</table>				  
 			</div>
