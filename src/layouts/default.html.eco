@@ -23,8 +23,7 @@
 	<!--[if lt IE 7]>
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-
-	<header>
+	<header class="allpage-header">
 		<ul class="mobile_menu">
 			<li><a href="#" class="close">X Close</a></li>
 			<li><h4>Services</h4>
@@ -126,7 +125,7 @@
 		<div class="homepage_promo">
 			<div class="homepage_promo_inner">
 				<img class="homepage_image" src="<%= @getUrl('/img/demo1_920.jpg') %>" alt="" data-wide="<%= @getUrl('/img/demo1.jpg') %>" />
-				<div class="home_headline">			
+				<div class="home_headline">
 					<div class="headline_promo_wrapper">						
 						<h1>Staying Connected Has Never Been Easier</h1>	
 					</div>					
@@ -138,8 +137,7 @@
 			
 		<%- @content %>		
 		
-	
-	<footer>
+	<footer class="allpage-footer">
 		<div class="mobile_app grid_wrapper">
 			Download our app and get $1 free
 			<a target="_blank" href="#">
@@ -150,7 +148,7 @@
 			</a>
 		</div>
 
-		<nav>
+		<nav class="footer-nav">
 			<ul class="bottom_menu grid_wrapper">
 				<li class="block_1">
 					<div class="line_1">

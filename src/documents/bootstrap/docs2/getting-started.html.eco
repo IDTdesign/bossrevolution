@@ -1,0 +1,24 @@
+---
+layout: docs
+title: Getting started
+slug: getting-started
+lead: "An overview of Bootstrap, how to download and use, basic templates and examples, and more."
+---
+<%- @partial('docs2/getting-started/download') %>
+<div class="bs-docs-section">
+<%- @partial('docs2/getting-started/whats-included') %>
+</div>
+<div class="bs-docs-section">
+<%- @partial('docs2/getting-started/template') %>
+</div>
+<%- @partial('docs2/getting-started/examples') %>
+<%- @partial('docs2/getting-started/community') %>
+<%- @partial('docs2/getting-started/disabling-responsiveness') %>
+<div class="bs-docs-section">
+<%- @partial('docs2/getting-started/browser-device-support') %>
+</div>
+<div class="bs-docs-section">
+<%- @partial('docs2/getting-started/third-party-support') %>
+</div>
+<%- @partial('docs2/getting-started/accessibility') %>
+<%- @partial('docs2/getting-started/license') %>
