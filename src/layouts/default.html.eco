@@ -138,7 +138,11 @@
 		<%- @content %>		
 		
 	<footer class="allpage-footer">
-		<div class="mobile_app grid_wrapper">
+		<div class="grid_wrapper bottom_link">
+			<a href="#" class="i_1">Friends forever</a>
+			<a href="#" class="i_2">Dwnlaod the app</a>
+		</div>
+		<!--div class="mobile_app grid_wrapper">
 			Download our app and get $1 free
 			<a target="_blank" href="#">
 				<img class="aligncenter wp-image-1573" width="196" height="59" src="http://www.olympusamericaprodictation.com/wp-content/uploads/2013/10/app_store_badge_download_vector_01.png" alt="Olympus Dictation App – Download on the App Store">
@@ -146,7 +150,7 @@
 			<a target="_blank" href="#">
 				<img class="aligncenter wp-image-1574" width="193" height="59" src="http://www.olympusamericaprodictation.com/wp-content/uploads/2013/10/google-play.png" alt="Olympus Dictation App on Google Play">
 			</a>
-		</div>
+		</div-->
 
 		<nav class="footer-nav">
 			<ul class="bottom_menu grid_wrapper">
